@@ -1,0 +1,12 @@
+@import '../../_css/queries.scss';
+
+.home {
+    display: flex;
+    gap: 100px;
+    flex-direction: column;
+    margin-top: 100px;
+
+    @include mid-break {
+        gap: 60px;
+    }
+}
