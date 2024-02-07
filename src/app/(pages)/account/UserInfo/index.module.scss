@@ -1,0 +1,13 @@
+.container {
+    width: 100%;
+    display: flex;
+    gap: 12px;
+    padding: 20px;
+    border-bottom: 1px solid var(--color-dark-50);
+}
+
+.userInfo {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
